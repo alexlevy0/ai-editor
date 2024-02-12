@@ -69,15 +69,7 @@ export default function Page() {
   }, 500);
   return (
     <div className="flex min-h-screen flex-col items-center sm:px-5 sm:pt-[calc(20vh)]">
-      <Button
-        size="icon"
-        variant="outline"
-        className="absolute bottom-5 left-5 z-10 max-h-fit rounded-lg p-2 transition-colors duration-200 sm:bottom-auto sm:top-5"
-      >
-        <a href="https://github.com/steven-tey/novel" target="_blank">
-          <Github />
-        </a>
-      </Button>
+      
       <Menu />
       <div className="relative w-full max-w-screen-lg">
         <div className="absolute right-5 top-5 z-10 mb-5 rounded-lg bg-accent px-2 py-1 text-sm text-muted-foreground">
