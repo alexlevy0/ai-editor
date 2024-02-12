@@ -14,26 +14,26 @@ import { getPrevText } from "novel/extensions";
 import { useState } from "react";
 
 const options = [
-  {
-    value: "improve",
-    label: "Improve writing",
-  },
+  // {
+  //   value: "improve",
+  //   label: "Improve writing",
+  // },
   {
     value: "continue",
     label: "Continue writing",
   },
-  {
-    value: "fix",
-    label: "Fix grammar",
-  },
-  {
-    value: "sorter",
-    label: "Make shorter",
-  },
-  {
-    value: "longer",
-    label: "Make longer",
-  },
+  // {
+  //   value: "fix",
+  //   label: "Fix grammar",
+  // },
+  // {
+  //   value: "sorter",
+  //   label: "Make shorter",
+  // },
+  // {
+  //   value: "longer",
+  //   label: "Make longer",
+  // },
 ];
 
 //TODO: I think it makes more sense to create a custom Tiptap extension for this functionality https://tiptap.dev/docs/editor/ai/introduction
