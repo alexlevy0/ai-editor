@@ -1,0 +1,92 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "Novel Docs",
+  "logo": {
+    "dark": "/logo/logo.svg",
+    "light": "/logo/logo.svg"
+  },
+  "favicon": "/favicon.svg",
+  "colors": {
+    "primary": "#9563FF",
+    "light": "#AE87FF",
+    "dark": "#0D001D",
+    "background": {
+      "dark": "#090014"
+    },
+    "anchors": {
+      "from": "#FF7F57",
+      "to": "#9563FF"
+    }
+  },
+  "topbarLinks": [
+    {
+      "name": "Support",
+      "url": "mailto:hi@mintlify.com"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Demo",
+    "url": "https://novel.sh/"
+  },
+  "tabs": [
+    {
+      "name": "Components",
+      "url": "components"
+    }
+  ],
+  "anchors": [
+    {
+      "name": "Documentation",
+      "icon": "book-open-cover",
+      "url": "documentation"
+    },
+    {
+      "name": "Components",
+      "icon": "react",
+      "url": "components"
+    },
+    {
+      "name": "Github",
+      "icon": "github",
+      "url": "https://github.com/steven-tey/novel"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Get Started",
+      "pages": ["introduction", "quickstart", "development"]
+    },
+    {
+      "group": "Guides",
+      "pages": [
+        "guides/overview",
+        {
+          "group": "Using Tailwind",
+          "pages": [
+            "guides/tailwind/setup",
+            "guides/tailwind/extensions",
+            "guides/tailwind/slash-command",
+            "guides/tailwind/bubble-menu"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Components",
+      "pages": ["api-reference/introduction"]
+    },
+    {
+      "group": "Endpoint Examples",
+      "pages": [
+        "api-reference/endpoint/get",
+        "api-reference/endpoint/create",
+        "api-reference/endpoint/delete"
+      ]
+    }
+  ],
+  "footerSocials": {
+    "twitter": "https://twitter.com/mintlify",
+    "github": "https://github.com/mintlify",
+    "linkedin": "https://www.linkedin.com/company/mintsearch"
+  }
+}
